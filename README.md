@@ -2,6 +2,13 @@
 
 The Tech Assessment for Daily Banking android developers.
 
+## Setup
+
+Create a `local.properties` file in root with the following values:
+
+- TMDB_API_KEY
+- TMDB_READ_ACCESS_ID
+
 ## Specification
 
 Please read the [specification](./specs.md) carefully!
