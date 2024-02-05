@@ -6,13 +6,6 @@ import kotlinx.coroutines.flow.MutableStateFlow
 
 class MovieStore {
     val genres: MutableStateFlow<List<Genre>> = MutableStateFlow(emptyList())
-
-    val movies: MutableStateFlow<List<Movie>> = MutableStateFlow(
-        listOf(
-
-
-        ),
-    )
-
+    val movies: MutableStateFlow<List<Movie>> = MutableStateFlow(emptyList())
     val detailsId: MutableStateFlow<Long> = MutableStateFlow(-1)
 }
